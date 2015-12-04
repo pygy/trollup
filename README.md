@@ -2,6 +2,16 @@
 
 a dummy module for testing rollup
 
+```shell
+git clone https://github.com/pygy/trollup.git
+cd trollup
+npm install
+npm run build
+cat bundle.js
+```
+
+Dependencies are set to 'latest', so you can `npm update` them at will.
+
 ### License
 
                        The Romantic WTF public license.
