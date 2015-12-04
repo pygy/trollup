@@ -11,7 +11,5 @@ return module.exports;
 
 var qux = qux.qux;
 
-console.log("Yeah")
-
 exports.baz = baz;
 exports.qux = qux;

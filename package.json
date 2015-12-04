@@ -8,9 +8,9 @@
   },
   "devDependencies": {
     "npm-run-shell": "*",
-    "rollup": "^0.21.1",
-    "rollup-plugin-commonjs": "^1.4.0",
-    "rollup-plugin-npm": "^1.1.0"
+    "rollup": "*",
+    "rollup-plugin-commonjs": "*",
+    "rollup-plugin-npm": "*"
   },
   "dependencies": {
     "foolib2025": "*"
