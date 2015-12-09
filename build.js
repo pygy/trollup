@@ -10,7 +10,7 @@ rollup.rollup({
   ]
 }).then(function (bundle) {
   bundle.write({
-    format: 'cjs',
+    format: 'es6',
     dest: 'bundle.js'
   });
 });

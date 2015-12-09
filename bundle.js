@@ -1,15 +1,11 @@
-'use strict';
+// export {baz} from 'foolib2025/bar/baz';
+// export {qux} from 'foolib2025/bar/qux';
 
-var baz = 4;
+function foo(o) {
+    o.bar = 5;
+    o.baz =6;
+}
 
-var qux = (function (module) {
-var exports = module.exports;
-module.exports.qux = 5
-module.exports.extra = 6
-return module.exports;
-})({exports:{}});
+foo(foo);
 
-var qux = qux.qux;
-
-exports.baz = baz;
-exports.qux = qux;
+export default foo;
