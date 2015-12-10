@@ -1,8 +1,5 @@
-function foo(o) {
-    o.bar = 5;
-    o.baz = 6;
-}
+function foo(){}
 
-foo(foo);
+foo.bar = 8;
 
 export default foo;

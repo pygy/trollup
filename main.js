@@ -1,7 +1,5 @@
-export default function foo(o) {
-    o.bar = 5;
-    o.baz = 6;
-}
+export default function foo(){}
 
-foo(foo);
+foo.bar = 8;
+
 delete foo.bar;
