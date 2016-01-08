@@ -1,4 +1,4 @@
-##Trollup.js
+##Trollup.js @foo
 
 a dummy module for testing rollup
 
